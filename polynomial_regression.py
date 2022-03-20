@@ -27,7 +27,5 @@ T = np.array(t_lst)
 
 W = np.matmul(np.matmul(inv(np.matmul(X.transpose(),X)),X.transpose()),T)
 
-#W = np.matmul(np.matmul(inv(np.matmul(X.transpose(),X) + 4 * np.identity(3)),X.transpose()),T)
-
 print(W)
 
